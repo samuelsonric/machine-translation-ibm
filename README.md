@@ -1,0 +1,1 @@
+This is an ongoing project to perform statistical machine translation using IBM translation models. See documentation.pdf for more detailed information about the model used. Go to Tutorial.ipynb to see the model in action.
