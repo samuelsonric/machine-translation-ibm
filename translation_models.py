@@ -180,7 +180,7 @@ class IBM2:
         self.translation = sparse.load_npz(path)
         
     def save_alignment_matrix(self, path):
-        sparse.save_npz(path, self.alignment)
+        np.save(path, self.alignment)
         
     def load_alignment_matrix(self, path):
         self.alignment = np.load(path, allow_pickle = True)
